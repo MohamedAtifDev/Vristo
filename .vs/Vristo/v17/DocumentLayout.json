@@ -160,7 +160,7 @@
               "RelativeDocumentMoniker": "VristoAPI\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "VristoAPI\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAAAFwAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAEsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T03:09:41.668Z",
               "EditorCaption": ""
@@ -175,8 +175,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\DTOs\\ProductDTO.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAAACsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:24:23.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:24:23.215Z"
             },
             {
               "$type": "Document",
@@ -188,8 +187,7 @@
               "RelativeToolTip": "VristoAPI.Application\\Services\\EmailSender.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAArwAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:08:08.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:08:08.887Z"
             },
             {
               "$type": "Document",
@@ -201,8 +199,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\DTOs\\ProductCategoryDTO.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:32:39.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:32:39.158Z"
             },
             {
               "$type": "Document",
@@ -214,8 +211,7 @@
               "RelativeToolTip": "VristoAPI.Application\\Extensions\\FilesConverter.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:47:08.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:47:08.616Z"
             },
             {
               "$type": "Document",
@@ -227,8 +223,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\DTOs\\InvoiceDTO.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:26:29.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:26:29.54Z"
             },
             {
               "$type": "Document",
@@ -240,8 +235,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\DTOs\\CartProductsDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:30:39.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:30:39.664Z"
             },
             {
               "$type": "Document",
@@ -253,8 +247,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\Entities\\CartProducts.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:38:33.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:38:33.27Z"
             },
             {
               "$type": "Document",
@@ -266,8 +259,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\DTOs\\OrderProductsDTO.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:33:54.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:33:54.174Z"
             },
             {
               "$type": "Document",
@@ -279,8 +271,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\DTOs\\PaymentsDTO.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:31:13.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:31:13.834Z"
             },
             {
               "$type": "Document",
@@ -292,8 +283,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\Entities\\Cart.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:29:24.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:29:24.613Z"
             },
             {
               "$type": "Document",
@@ -305,8 +295,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\DTOs\\OrderDTO.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAAAB4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:25:05.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:25:05.63Z"
             },
             {
               "$type": "Document",
@@ -318,8 +307,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\DTOs\\OfferDTO.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:28:58.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:28:58.585Z"
             },
             {
               "$type": "Document",
@@ -331,8 +319,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\DTOs\\CustomerDTO.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:32:03.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:32:03.767Z"
             },
             {
               "$type": "Document",
@@ -344,8 +331,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\DTOs\\CartDTO.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:30:00.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:30:00.45Z"
             },
             {
               "$type": "Document",
@@ -357,8 +343,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\Entities\\OrderProducts.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:34:29.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:34:29.071Z"
             },
             {
               "$type": "Document",
@@ -370,8 +355,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\Entities\\Customer.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:31:42.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:31:42.222Z"
             },
             {
               "$type": "Document",
@@ -383,8 +367,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\Entities\\Offers.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:28:11.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:28:11.822Z"
             },
             {
               "$type": "Document",
@@ -396,8 +379,7 @@
               "RelativeToolTip": "VristoAPI.Infrastructure\\Migrations\\20241219032327_Add-invoice.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:23:27.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:23:27.991Z"
             },
             {
               "$type": "Document",
@@ -409,8 +391,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\Entities\\Order.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:21:50.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:21:50.028Z"
             },
             {
               "$type": "Document",
@@ -422,8 +403,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\Entities\\Invoice.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:19:59.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:19:59.806Z"
             },
             {
               "$type": "Document",
@@ -435,8 +415,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\Entities\\ProductCategory.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:08:26.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:08:26.698Z"
             },
             {
               "$type": "Document",
@@ -448,8 +427,7 @@
               "RelativeToolTip": "VristoAPI.Infrastructure\\Database\\DataContext.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAAADAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:06:43.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:06:43.287Z"
             },
             {
               "$type": "Document",
@@ -461,8 +439,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\Entities\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:08:31.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:08:31.742Z"
             },
             {
               "$type": "Document",
@@ -474,8 +451,7 @@
               "RelativeToolTip": "VristoAPI.Application\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:08:19.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:08:19.271Z"
             },
             {
               "$type": "Document",
@@ -487,8 +463,7 @@
               "RelativeToolTip": "VristoAPI.Application\\Models\\PaginatedList.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:08:02.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:08:02.883Z"
             },
             {
               "$type": "Document",
@@ -500,8 +475,7 @@
               "RelativeToolTip": "VristoAPI.Application\\Models\\ISMSSender.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:08:00.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:08:00.064Z"
             },
             {
               "$type": "Document",
@@ -513,8 +487,7 @@
               "RelativeToolTip": "VristoAPI.Application\\Models\\IGetPaginatedQuery.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:07:53.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:07:53.755Z"
             },
             {
               "$type": "Document",
@@ -526,8 +499,7 @@
               "RelativeToolTip": "VristoAPI.Infrastructure\\GenericRepo\\BaseRepoistory.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:06:32.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:06:32.752Z"
             },
             {
               "$type": "Document",
@@ -539,8 +511,7 @@
               "RelativeToolTip": "VristoAPI.Domain\\BaseEntity\\BaseEntity.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:05:30.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T03:05:30.27Z"
             }
           ]
         }
