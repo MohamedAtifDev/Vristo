@@ -20,5 +20,8 @@ namespace VristoAPI.Domain.Entities
 
         [ForeignKey(nameof(CartID))]
         public Cart Cart { get; set; }  
+
+
+        public int Quantity {  get; set; }
     }
 }

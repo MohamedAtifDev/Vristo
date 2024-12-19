@@ -284,6 +284,29 @@ namespace VristoAPI.Infrastructure.Migrations
                     b.ToTable("Customers");
                 });
 
+            modelBuilder.Entity("VristoAPI.Domain.Entities.Invoice", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<byte[]>("InvoiceFile")
+                        .IsRequired()
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<int>("OrderID")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OrderID")
+                        .IsUnique();
+
+                    b.ToTable("Invoices");
+                });
+
             modelBuilder.Entity("VristoAPI.Domain.Entities.Offers", b =>
                 {
                     b.Property<int>("Id")
@@ -583,6 +606,17 @@ namespace VristoAPI.Infrastructure.Migrations
                     b.Navigation("Product");
                 });
 
+            modelBuilder.Entity("VristoAPI.Domain.Entities.Invoice", b =>
+                {
+                    b.HasOne("VristoAPI.Domain.Entities.Order", "Order")
+                        .WithOne("Invoice")
+                        .HasForeignKey("VristoAPI.Domain.Entities.Invoice", "OrderID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+                });
+
             modelBuilder.Entity("VristoAPI.Domain.Entities.Offers", b =>
                 {
                     b.HasOne("VristoAPI.Domain.Entities.Product", "Product")
@@ -648,6 +682,9 @@ namespace VristoAPI.Infrastructure.Migrations
 
             modelBuilder.Entity("VristoAPI.Domain.Entities.Order", b =>
                 {
+                    b.Navigation("Invoice")
+                        .IsRequired();
+
                     b.Navigation("orderProducts");
                 });
 

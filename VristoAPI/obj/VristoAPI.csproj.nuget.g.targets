@@ -9,5 +9,8 @@
     <Import Project="$(NuGetPackageRoot)questpdf\2024.12.1\buildTransitive\QuestPDF.targets" Condition="Exists('$(NuGetPackageRoot)questpdf\2024.12.1\buildTransitive\QuestPDF.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.binder\9.0.0\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.Binder.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.binder\9.0.0\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.Binder.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.ml.onnxruntime.managed\1.18.1\build\netstandard2.0\Microsoft.ML.OnnxRuntime.Managed.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.ml.onnxruntime.managed\1.18.1\build\netstandard2.0\Microsoft.ML.OnnxRuntime.Managed.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.ml.onnxruntime\1.18.1\build\netstandard2.1\Microsoft.ML.OnnxRuntime.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.ml.onnxruntime\1.18.1\build\netstandard2.1\Microsoft.ML.OnnxRuntime.targets')" />
+    <Import Project="$(NuGetPackageRoot)barcode.slim\2024.12.8\build\netstandard2.0\BarCode.Slim.targets" Condition="Exists('$(NuGetPackageRoot)barcode.slim\2024.12.8\build\netstandard2.0\BarCode.Slim.targets')" />
   </ImportGroup>
 </Project>

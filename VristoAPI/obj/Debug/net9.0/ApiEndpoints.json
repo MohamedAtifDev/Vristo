@@ -73,18 +73,8 @@
   },
   {
     "ContainingType": "VristoAPI.Controllers.ProductsController",
-    "Method": "GenerateComplexPdF",
-    "RelativePath": "api/Products/generate-complex",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "VristoAPI.Controllers.ProductsController",
-    "Method": "GenerateSimplePdf",
-    "RelativePath": "api/Products/generate-simple",
+    "Method": "GeneratePdf",
+    "RelativePath": "api/Products/GeneratePdf",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

@@ -36,5 +36,7 @@ namespace VristoAPI.Domain.Entities
 
 
         public int PaymentID { get; set; }
+
+        public Invoice Invoice { get; set; }
     }
 }

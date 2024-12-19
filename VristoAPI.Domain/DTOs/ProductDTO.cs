@@ -12,16 +12,16 @@ namespace VristoAPI.Domain.DTOs
 {
     public class ProductDTO
     {
-        [Key]
+      
 
         public int ID { get; set; }
 
 
-        [StringLength(100)]
+
         public string Name { get; set; }
 
 
-        [StringLength(200)]
+ 
         public string? Description { get; set; }
 
         public int Quantity { get; set; }
@@ -32,18 +32,15 @@ namespace VristoAPI.Domain.DTOs
         public DateTime ExpirationDate { get; set; }
 
 
-        [StringLength(20)]
+    
         public string BarCode { get; set; }
 
 
         public int CategoryID { get; set; }
 
 
-        //[ForeignKey("CategoryID")]
-
-        //public ProductCategory Category { get; set; }
-
-        //public ICollection<CartProducts> cartProducts { get; set; }
-        //public ICollection<OrderProducts> orderProducts { get; set; }
+     
+        public ICollection<CartProductsDTO> cartProducts { get; set; }
+        public ICollection<OrderProductsDTO> orderProducts { get; set; }
     }
 }

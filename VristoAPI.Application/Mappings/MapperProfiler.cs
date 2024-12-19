@@ -14,6 +14,15 @@ namespace VristoAPI.Application.Mappings
         public MapperProfiler()
         {
             CreateMap<Product,ProductDTO>().ReverseMap();
+            CreateMap<Order, OrderDTO>().ReverseMap();
+           // CreateMap<Invoice, InvoiceDTO>().ReverseMap();
+            CreateMap<ProductCategory, ProductCategoryDTO>().ReverseMap();
+            CreateMap<OrderProducts, OrderProductsDTO>().ReverseMap();
+            CreateMap<Cart, CartDTO>().ReverseMap();
+            CreateMap<CartProducts, CartProductsDTO>().ReverseMap();
+            CreateMap<Offers, OfferDTO>().ReverseMap();
+            CreateMap<Customer, CustomerDTO>().ReverseMap();
+            CreateMap<Payments, PaymentsDTO>().ReverseMap();
         }
     }
 }

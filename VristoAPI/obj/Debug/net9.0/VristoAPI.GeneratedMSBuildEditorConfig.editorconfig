@@ -17,17 +17,17 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VristoAPI
 build_property.RootNamespace = VristoAPI
-build_property.ProjectDir = C:\Users\EL-masreya\source\repos\Vristo\VristoAPI\
+build_property.ProjectDir = C:\Users\EL-masreya\Desktop\Vristo\VristoAPI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\EL-masreya\source\repos\Vristo\VristoAPI
+build_property.MSBuildProjectDirectory = C:\Users\EL-masreya\Desktop\Vristo\VristoAPI
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/EL-masreya/source/repos/Vristo/VristoAPI/EmailTemplates/WelcomeEmail.cshtml]
+[C:/Users/EL-masreya/Desktop/Vristo/VristoAPI/EmailTemplates/WelcomeEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RW1haWxUZW1wbGF0ZXNcV2VsY29tZUVtYWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -12,21 +12,9 @@ namespace VristoAPI.Infrastructure.Database
 {
     public class DataContext : IdentityDbContext
     {
-
-
-
-
-
         public DataContext()  { }
         public DataContext(DbContextOptions<DataContext> opt):base(opt) { }
 
-      /*  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("server =.; Initial Catalog = Vristo; Encrypt = false; Integrated Security = True, MultipleActiveResultSets = true; TrustServerCertificate = True");
-  }; 
-            }*/
         
 
         protected override void OnModelCreating(ModelBuilder builder)
@@ -35,6 +23,7 @@ namespace VristoAPI.Infrastructure.Database
             builder.Entity<Customer>().HasIndex(a => a.UserName);
             builder.Entity<CartProducts>().HasKey(a => new { a.ProductID, a.CartID });
             builder.Entity<OrderProducts>().HasKey(a => new { a.ProductID, a.OrderID });
+            
         }
       
         public DbSet<Customer> Customers { get; set; }
@@ -55,7 +44,9 @@ namespace VristoAPI.Infrastructure.Database
         public DbSet<CartProducts> CartProducts { get; set; }
 
         public DbSet<OrderProducts>OrderProducts { get; set; }
+         
 
+        public DbSet<Invoice> Invoices { get; set; }
 
 
     }

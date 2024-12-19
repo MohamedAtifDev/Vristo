@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI\\VristoAPI.csproj": {}
+    "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI\\VristoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Application\\VristoAPI.Application.csproj": {
+    "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\VristoAPI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Application\\VristoAPI.Application.csproj",
+        "projectUniqueName": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\VristoAPI.Application.csproj",
         "projectName": "VristoAPI.Application",
-        "projectPath": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Application\\VristoAPI.Application.csproj",
+        "projectPath": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\VristoAPI.Application.csproj",
         "packagesPath": "C:\\Users\\EL-masreya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Application\\obj\\",
+        "outputPath": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
@@ -40,11 +40,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Domain\\VristoAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Domain\\VristoAPI.Domain.csproj"
+              "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\VristoAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\VristoAPI.Domain.csproj"
               },
-              "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj"
+              "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj"
               }
             }
           }
@@ -110,14 +110,14 @@
         }
       }
     },
-    "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Domain\\VristoAPI.Domain.csproj": {
+    "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\VristoAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Domain\\VristoAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\VristoAPI.Domain.csproj",
         "projectName": "VristoAPI.Domain",
-        "projectPath": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Domain\\VristoAPI.Domain.csproj",
+        "projectPath": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\VristoAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\EL-masreya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Domain\\obj\\",
+        "outputPath": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
@@ -167,6 +167,10 @@
             "Microsoft.AspNet.Identity.EntityFramework": {
               "target": "Package",
               "version": "[2.2.4, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
             }
           },
           "imports": [
@@ -189,14 +193,14 @@
         }
       }
     },
-    "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj": {
+    "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj",
         "projectName": "VristoAPI.Infrastructure",
-        "projectPath": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\EL-masreya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
@@ -225,8 +229,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Domain\\VristoAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Domain\\VristoAPI.Domain.csproj"
+              "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\VristoAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\VristoAPI.Domain.csproj"
               }
             }
           }
@@ -292,14 +296,14 @@
         }
       }
     },
-    "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI\\VristoAPI.csproj": {
+    "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI\\VristoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI\\VristoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI\\VristoAPI.csproj",
         "projectName": "VristoAPI",
-        "projectPath": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI\\VristoAPI.csproj",
+        "projectPath": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI\\VristoAPI.csproj",
         "packagesPath": "C:\\Users\\EL-masreya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI\\obj\\",
+        "outputPath": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
@@ -328,11 +332,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Application\\VristoAPI.Application.csproj": {
-                "projectPath": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Application\\VristoAPI.Application.csproj"
+              "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\VristoAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\VristoAPI.Application.csproj"
               },
-              "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\EL-masreya\\source\\repos\\Vristo\\VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj"
+              "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj"
               }
             }
           }
@@ -353,6 +357,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "BarCode": {
+              "target": "Package",
+              "version": "[2024.12.8, )"
+            },
+            "BarcodeLib": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -377,6 +389,10 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
             "Serilog": {
               "target": "Package",
               "version": "[4.2.0, )"
@@ -400,6 +416,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[7.2.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

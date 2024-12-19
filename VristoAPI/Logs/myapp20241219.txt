@@ -1,0 +1,89 @@
+2024-12-19 05:16:19.372 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: 
+
+
+
+Welcome to QuestPDF! 👋 
+
+QuestPDF is an open-source library committed to long-term sustainability and continuous improvement. 
+
+To maintain high-quality development and support while keeping the library free for most users, we use a fair pricing model where only larger organizations help by providing necessary funding for the project. 
+
+If your organization’s annual gross revenue exceeds $1M USD, a Commercial License is required for production use (you can freely evaluate and test QuestPDF in non-production environments at no cost). In that case, please share this information with your team or management. By purchasing a license, you directly contribute to the ongoing development and reliability of QuestPDF. 
+
+For details on the license types and determining which applies to you, please visit: https://www.questpdf.com/license/ 
+
+We trust our users. To continue, no license key is needed. Instead, simply select and configure the appropriate license in your code. For example, if you qualify for the Community license, add: 
+
+> QuestPDF.Settings.License = LicenseType.Community; 
+
+Thank you for supporting QuestPDF! ❤️ By choosing the right license, you help ensure that our project remains transparent, sustainable, and continuously improving for everyone. 🚀 
+
+
+
+
+   at QuestPDF.Drawing.DocumentGenerator.ValidateLicense()
+   at QuestPDF.Drawing.DocumentGenerator.GeneratePdf(SkWriteStream stream, IDocument document)
+   at QuestPDF.Fluent.GenerateExtensions.GeneratePdf(IDocument document)
+   at VristoAPI.Controllers.ProductsController.GenerateSamplePdf() in C:\Users\EL-masreya\Desktop\Vristo\VristoAPI\Controllers\ProductsController.cs:line 66
+   at VristoAPI.Controllers.ProductsController.GenerateSimplePdf() in C:\Users\EL-masreya\Desktop\Vristo\VristoAPI\Controllers\ProductsController.cs:line 72
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-19 05:16:34.832 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+QuestPDF.Drawing.Exceptions.DocumentComposeException: The 'Page.Content' layer has already been defined. Please call this method only once.
+   at QuestPDF.Fluent.PageDescriptor.Content()
+   at VristoAPI.Controllers.ProductsController.<>c.<GenerateComplexPdf>b__10_1(PageDescriptor page) in C:\Users\EL-masreya\Desktop\Vristo\VristoAPI\Controllers\ProductsController.cs:line 102
+   at QuestPDF.Fluent.PageExtensions.Page(IDocumentContainer document, Action`1 handler)
+   at VristoAPI.Controllers.ProductsController.<>c.<GenerateComplexPdf>b__10_0(IDocumentContainer container) in C:\Users\EL-masreya\Desktop\Vristo\VristoAPI\Controllers\ProductsController.cs:line 89
+   at QuestPDF.Fluent.Document.Compose(IDocumentContainer container)
+   at QuestPDF.Drawing.DocumentGenerator.ConfigureContent(IDocument document, DocumentSettings settings, Boolean useOriginalImages)
+   at QuestPDF.Drawing.DocumentGenerator.RenderSingleDocument[TCanvas](TCanvas canvas, IDocument document, DocumentSettings settings)
+   at QuestPDF.Drawing.DocumentGenerator.RenderDocument[TCanvas](TCanvas canvas, IDocument document, DocumentSettings settings)
+   at QuestPDF.Drawing.DocumentGenerator.GeneratePdf(SkWriteStream stream, IDocument document)
+   at QuestPDF.Fluent.GenerateExtensions.GeneratePdf(IDocument document)
+   at VristoAPI.Controllers.ProductsController.GenerateComplexPdf() in C:\Users\EL-masreya\Desktop\Vristo\VristoAPI\Controllers\ProductsController.cs:line 146
+   at VristoAPI.Controllers.ProductsController.GenerateComplexPdF() in C:\Users\EL-masreya\Desktop\Vristo\VristoAPI\Controllers\ProductsController.cs:line 80
+   at lambda_method4(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-19 06:41:33.576 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Products" for actions - VristoAPI.Controllers.ProductsController.Get (VristoAPI), VristoAPI.Controllers.ProductsController.GeneratePdf (VristoAPI). Actions require a unique method/path combination for Swagger/OpenAPI 2.0 and 3.0. Use ConflictingActionsResolver as a workaround or provide your own implementation of PathGroupSelector.
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)

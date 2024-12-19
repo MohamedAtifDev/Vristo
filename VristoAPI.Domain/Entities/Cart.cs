@@ -22,7 +22,7 @@ namespace VristoAPI.Domain.Entities
         [ForeignKey(nameof(CustomerID))]
         public Customer Customer { get; set; }
 
-
+    
         public ICollection<CartProducts> cartProducts { get; set; }
 
     }

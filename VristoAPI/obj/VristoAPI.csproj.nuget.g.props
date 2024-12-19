@@ -20,6 +20,8 @@
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\9.0.0\build\net8.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\9.0.0\build\net8.0\Microsoft.EntityFrameworkCore.Design.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props')" />
     <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore\7.2.0\build\Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore\7.2.0\build\Swashbuckle.AspNetCore.props')" />
+    <Import Project="$(NuGetPackageRoot)sixlabors.imagesharp\3.1.5\build\SixLabors.ImageSharp.props" Condition="Exists('$(NuGetPackageRoot)sixlabors.imagesharp\3.1.5\build\SixLabors.ImageSharp.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.ml.onnxruntime\1.18.1\build\netstandard2.1\Microsoft.ML.OnnxRuntime.props" Condition="Exists('$(NuGetPackageRoot)microsoft.ml.onnxruntime\1.18.1\build\netstandard2.1\Microsoft.ML.OnnxRuntime.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\EL-masreya\.nuget\packages\entityframework\6.1.0</PkgEntityFramework>

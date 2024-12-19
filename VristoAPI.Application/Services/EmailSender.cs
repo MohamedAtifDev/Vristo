@@ -12,10 +12,7 @@ using Microsoft.Extensions.Configuration;
 namespace VristoAPI.Application.Services
 {
  
-    public class ImageHelper
-    {
-       
-    }
+
     public  class EmailSender
     {
         private  readonly IConfiguration config;

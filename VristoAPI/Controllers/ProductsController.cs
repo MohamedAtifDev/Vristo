@@ -1,8 +1,14 @@
-﻿using MediatR;
+﻿using BarcodeStandard;
+
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Org.BouncyCastle.Utilities;
+using QRCoder;
 using QuestPDF.Fluent;
 using QuestPDF.Infrastructure;
+using System.Drawing;
 using Twilio.Rest.Routes.V2;
 using VristoAPI.Application.Features.Products.Query.GetProductWithPagination;
 using VristoAPI.Application.Models;
@@ -10,16 +16,20 @@ using VristoAPI.Application.Services;
 using VristoAPI.Domain.DTOs;
 using VristoAPI.Domain.Models;
 
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+
+
 namespace VristoAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductsController(ISender sender,IConfiguration config,ISMSSender smssender) : ControllerBase
+    public class ProductsController(ISender sender, IConfiguration config, ISMSSender smssender) : ControllerBase
     {
         [HttpGet]
-        public async Task<PaginatedList<ProductDTO>> Get([FromQuery]GetProductWithPaginationQuery Query)
+        public async Task<PaginatedList<ProductDTO>> Get([FromQuery] GetProductWithPaginationQuery Query)
         {
-            var c= await sender.Send(Query);
+            var c = await sender.Send(Query);
             return c;
         }
 
@@ -27,17 +37,17 @@ namespace VristoAPI.Controllers
         public async Task<bool> SendEmail(string Reciever)
         {
 
-        
+
 
             var sender = new EmailSender(config);
-            var x= await sender.SendEmail(Reciever, "WelcomeEmail.cshtml");
+            var x = await sender.SendEmail(Reciever, "WelcomeEmail.cshtml");
             return x;
         }
         [HttpPost]
         [Route("SendSMS")]
         public async Task<bool> SendSMS(string Phonenumber)
         {
-           var x= smssender.Send(Phonenumber, "Gello");
+            var x = smssender.Send(Phonenumber, "Gello");
             if (!string.IsNullOrEmpty(x.ErrorMessage))
             {
                 return false;
@@ -49,76 +59,108 @@ namespace VristoAPI.Controllers
 
         }
 
-        private byte[] GenerateSamplePdf()
-        {
-            var document = Document.Create(container =>
-            {
-                container.Page(page =>
-                {
-                    page.Margin(50);
-                    page.Content().Column(column =>
-                    {
-                        column.Item().Text("Hello, World! This is a sample PDF.");
-                        column.Item().Text($"Generated at: {DateTime.Now}");
-                    });
-                });
-            });
-            return document.GeneratePdf();
-        }
 
-        [HttpGet("generate-simple")]
-        public IActionResult GenerateSimplePdf()
+        [HttpGet]
+        [Route("GeneratePdf")]
+        public IResult GeneratePdf()
         {
-            var pdfContent = GenerateSamplePdf();
-            return File(pdfContent, "application/pdf", "sample.pdf");
-        }
+            // use any method to create a document, e.g.: injected service
+            var document = GenerateComplexPdf();
 
-        // Generates a complex PDF
-        [HttpGet("generate-complex")]
-        public IActionResult GenerateComplexPdF()
-        {
-            var pdfContent = GenerateComplexPdf();
-            return File(pdfContent, "application/pdf", "complex.pdf");
-        }
+            // generate PDF file and return it as a response
 
-        // Generates a more complex PDF
+            return Results.File(document, "application/pdf", "hello-world.pdf");
+        }
         private byte[] GenerateComplexPdf()
         {
             var document = Document.Create(container =>
             {
+               
                 container.Page(page =>
                 {
                     page.Margin(50);
-                    page.Content().Column(column =>
-                    {
-                        column.Item().Text("Title: Complex PDF Example").FontSize(20).Bold();
-                        column.Item().Text("This PDF contains a table and a styled text.");
-
-                        column.Item().Table(table =>
+                    
+                    page.Content()
+                        .Column(column =>
                         {
-                            table.ColumnsDefinition(columns =>
+                            // Header with Barcode on the left and Invoice info on the right
+                            column.Item().Row(row =>
                             {
-                                columns.ConstantColumn(100);
-                                columns.RelativeColumn();
+                                // Barcode on the left
+                                row.RelativeItem().MaxWidth(100).MaxHeight(150).AlignTop().Image(GenerateBarcode("100"));
+
+                                // Invoice information on the right
+                                row.RelativeItem().AlignCenter().AlignRight().PaddingTop(20).Column(col =>
+                                {
+                                    col.Item().Text($"Invoice Number:100")
+                                        .FontSize(14)
+                                    .Bold();
+
+                                    col.Item().Text($"Date: 22/7/2024")
+                                        .FontSize(14)
+                                    .Bold();
+
+                                  
+
+                                    col.Item().Text($"Bill To:MohamedAtef")
+                                        .FontSize(14)
+                                        .Bold();
+
+                                });
                             });
 
-                            table.Header(header =>
+                            // Add itemized table below
+                            column.Item().Table(table =>
                             {
-                                header.Cell().Text("ID");
-                                header.Cell().Text("Name");
+                                table.ColumnsDefinition(columns =>
+                                {
+                                    columns.ConstantColumn(100); // Product/Service
+                                    columns.ConstantColumn(150); // Description
+                                    columns.ConstantColumn(100); // Unit Price
+                                    columns.ConstantColumn(80);  // Quantity
+                                    columns.ConstantColumn(100); // Total Price
+                                });
+
+
                             });
 
-                            table.Cell().Text("1");
-                            table.Cell().Text("John Doe");
-                            table.Cell().Text("2");
-                            table.Cell().Text("Jane Smith");
+                            // Total Amount
+                            column.Item().AlignRight().Text($"Total: 100")
+                                .FontSize(16)
+                                .Bold();
+
                         });
-                    });
                 });
             });
 
+            // Generate and save the PDF
             QuestPDF.Settings.License = LicenseType.Community;
-            return document.GeneratePdf();
+            return document.GeneratePdf().ToArray();
         }
+
+        private byte[] GenerateBarcode(string invoiceNumber)
+        {
+            using (QRCodeGenerator qrGenerator = new QRCodeGenerator())
+            {
+                // Generate the QR code data
+                QRCodeData qrCodeData = qrGenerator.CreateQrCode(invoiceNumber, QRCodeGenerator.ECCLevel.Q);
+
+                // Create a QR code from the QRCodeData
+                var qrCode = new QRCode(qrCodeData);
+
+                // Convert the QR code to a Bitmap image
+                using (Bitmap qrCodeImage = qrCode.GetGraphic(20)) // 20 is the pixel size for the QR code
+                {
+                    // Convert the Bitmap to a base64 string to embed in HTML or return as image
+                    using (MemoryStream ms = new MemoryStream())
+                    {
+                        qrCodeImage.Save(ms, System.Drawing.Imaging.ImageFormat.Png); // Save to memory stream as PNG
+                        byte[] byteImage = ms.ToArray();
+                        return byteImage; // Return as base64 string
+                    }
+                }
+            }
+        }
+    
     }
 }
