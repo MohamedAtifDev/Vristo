@@ -15,6 +15,12 @@ using VristoAPI.Application.Services;
 using VristoAPI.Domain.GenericRepo;
 using VristoAPI.Domain.UnitOfWork;
 using VristoAPI.Infrastructure.UnitOfWork;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.OpenApi.Models;
+using VristoAPI.Application.Interfaces;
+using VristoAPI.Domain.Entities;
 
 namespace VristoAPI
 {
@@ -43,13 +49,34 @@ namespace VristoAPI
             builder.Services.AddSwaggerGen();
             builder.Services.Configure<TwillioSettings>(builder.Configuration.GetSection("Twillio"));
             builder.Services.AddScoped<ISMSSender, SMSSender>();
+            builder.Services.AddScoped<IAuth, AuthService>();
             builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepoistory<>));
             builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
             builder.Services.AddDbContext<DataContext>(opt =>
             {
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("DBConnection"));
             });
-            builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            builder.Services.Configure<JWT>(builder.Configuration.GetSection("JWT"));
+            builder.Services.AddAuthentication(opt =>
+            {
+                opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(o =>
+            {
+                o.RequireHttpsMetadata = true;
+                o.SaveToken = false;
+                o.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateLifetime = true,
+                    ValidateAudience = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = builder.Configuration["JWT:Issuer"],
+                    ValidAudience = builder.Configuration["JWT:Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:Key"]))
+                };
+            });
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
             {
                 options.Password.RequireDigit = true;
                 options.Password.RequireLowercase = true;
@@ -59,6 +86,34 @@ namespace VristoAPI
                 options.Password.RequiredUniqueChars = 1;
             }).AddEntityFrameworkStores<DataContext>()
 .AddDefaultTokenProviders();
+
+            builder.Services.AddSwaggerGen(config =>
+            {
+                config.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Type = SecuritySchemeType.Http,
+                    In = ParameterLocation.Header,
+                    Scheme = "Bearer",
+                    BearerFormat = "JWT",
+                    Description = "JWT Authorization header using the Bearer scheme."
+                });
+
+                config.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                },
+                In = ParameterLocation.Header,
+            },
+            new List<string>()
+        }
+    });
+            });
             var assemblies = Assembly.Load("VristoAPI.Application");
 
             builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
@@ -76,6 +131,7 @@ namespace VristoAPI
                 {
                     options.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
                     options.RoutePrefix = string.Empty;  // Set Swagger UI at the root (optional)
+                  
                 });
             }
 

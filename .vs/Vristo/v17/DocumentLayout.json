@@ -3,16 +3,164 @@
   "WorkspaceRootPath": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70D72429-13F9-48F6-A08E-90598738019D}|VristoAPI\\VristoAPI.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D72429-13F9-48F6-A08E-90598738019D}|VristoAPI\\VristoAPI.csproj|solutionrelative:vristoapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C801B4A-3659-424F-A19B-65C52709DE35}|VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.infrastructure\\database\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C801B4A-3659-424F-A19B-65C52709DE35}|VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj|solutionrelative:vristoapi.infrastructure\\database\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241221030041_BuildDatabase2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VristoAPI.Infrastructure\\Migrations\\20241221030041_BuildDatabase2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241221025805_BuildDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VristoAPI.Infrastructure\\Migrations\\20241221025805_BuildDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241221025621_BuildDatabase3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VristoAPI.Infrastructure\\Migrations\\20241221025621_BuildDatabase3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241221025952_BuildDatabase2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VristoAPI.Infrastructure\\Migrations\\20241221025952_BuildDatabase2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\cartproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\cartproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241221025149_BuildDatabase2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VristoAPI.Infrastructure\\Migrations\\20241221025149_BuildDatabase2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70D72429-13F9-48F6-A08E-90598738019D}|VristoAPI\\VristoAPI.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70D72429-13F9-48F6-A08E-90598738019D}|VristoAPI\\VristoAPI.csproj|solutionrelative:vristoapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\mappings\\mapperprofiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\mappings\\mapperprofiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70D72429-13F9-48F6-A08E-90598738019D}|VristoAPI\\VristoAPI.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70D72429-13F9-48F6-A08E-90598738019D}|VristoAPI\\VristoAPI.csproj|solutionrelative:vristoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\features\\products\\query\\getproductwithpagination\\getproductwithpaginationqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\features\\products\\query\\getproductwithpagination\\getproductwithpaginationqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\genericrepo\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\genericrepo\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C801B4A-3659-424F-A19B-65C52709DE35}|VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.infrastructure\\genericrepo\\baserepoistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C801B4A-3659-424F-A19B-65C52709DE35}|VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj|solutionrelative:vristoapi.infrastructure\\genericrepo\\baserepoistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\baseentity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\baseentity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\vristoapi.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\vristoapi.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70D72429-13F9-48F6-A08E-90598738019D}|VristoAPI\\VristoAPI.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70D72429-13F9-48F6-A08E-90598738019D}|VristoAPI\\VristoAPI.csproj|solutionrelative:vristoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\offers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\offers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\services\\invoicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\services\\invoicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\orderproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\orderproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70D72429-13F9-48F6-A08E-90598738019D}|VristoAPI\\VristoAPI.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70D72429-13F9-48F6-A08E-90598738019D}|VristoAPI\\VristoAPI.csproj|solutionrelative:vristoapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\services\\errorshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\services\\errorshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\dtos\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\dtos\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\models\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\models\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\interfaces\\ismssender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\interfaces\\ismssender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\services\\smssender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\services\\smssender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\dtos\\productcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +179,12 @@
       "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\dtos\\cartproductsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\cartproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\cartproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\dtos\\orderproductsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\dtos\\orderproductsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\dtos\\paymentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\dtos\\paymentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,38 +203,6 @@
       "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\orderproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\orderproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\offers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\offers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C801B4A-3659-424F-A19B-65C52709DE35}|VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.infrastructure\\migrations\\20241219032327_add-invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C801B4A-3659-424F-A19B-65C52709DE35}|VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj|solutionrelative:vristoapi.infrastructure\\migrations\\20241219032327_add-invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C801B4A-3659-424F-A19B-65C52709DE35}|VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.infrastructure\\database\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C801B4A-3659-424F-A19B-65C52709DE35}|VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj|solutionrelative:vristoapi.infrastructure\\database\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\entities\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\entities\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -103,24 +211,8 @@
       "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\models\\ismssender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\models\\ismssender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.application\\models\\igetpaginatedquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C380D95E-A289-4DE6-8CD6-18C2B614ABF6}|VristoAPI.Application\\VristoAPI.Application.csproj|solutionrelative:vristoapi.application\\models\\igetpaginatedquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C801B4A-3659-424F-A19B-65C52709DE35}|VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.infrastructure\\genericrepo\\baserepoistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C801B4A-3659-424F-A19B-65C52709DE35}|VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj|solutionrelative:vristoapi.infrastructure\\genericrepo\\baserepoistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|c:\\users\\el-masreya\\desktop\\vristo\\vristoapi.domain\\baseentity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41EA53E9-7633-4F0E-8103-993D08A5A94A}|VristoAPI.Domain\\VristoAPI.Domain.csproj|solutionrelative:vristoapi.domain\\baseentity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,7 +222,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -141,297 +233,315 @@
               "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20241221030041_BuildDatabase2.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241221030041_BuildDatabase2.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Infrastructure\\Migrations\\20241221030041_BuildDatabase2.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241221030041_BuildDatabase2.cs",
+              "RelativeToolTip": "VristoAPI.Infrastructure\\Migrations\\20241221030041_BuildDatabase2.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwCUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T03:00:41.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20241221025805_BuildDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241221025805_BuildDatabase.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Infrastructure\\Migrations\\20241221025805_BuildDatabase.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241221025805_BuildDatabase.cs",
+              "RelativeToolTip": "VristoAPI.Infrastructure\\Migrations\\20241221025805_BuildDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T02:58:05.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20241221025621_BuildDatabase3.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241221025621_BuildDatabase3.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Infrastructure\\Migrations\\20241221025621_BuildDatabase3.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241221025621_BuildDatabase3.cs",
+              "RelativeToolTip": "VristoAPI.Infrastructure\\Migrations\\20241221025621_BuildDatabase3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T02:56:21.771Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "VristoAPI\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "VristoAPI\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAAAEsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:09:41.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductDTO.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\ProductDTO.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\ProductDTO.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\ProductDTO.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\ProductDTO.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAACsAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:24:23.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmailSender.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Services\\EmailSender.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Application\\Services\\EmailSender.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Services\\EmailSender.cs",
-              "RelativeToolTip": "VristoAPI.Application\\Services\\EmailSender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAArwAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:08:08.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductCategoryDTO.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\ProductCategoryDTO.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\ProductCategoryDTO.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\ProductCategoryDTO.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\ProductCategoryDTO.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:32:39.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FilesConverter.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Extensions\\FilesConverter.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Application\\Extensions\\FilesConverter.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Extensions\\FilesConverter.cs",
-              "RelativeToolTip": "VristoAPI.Application\\Extensions\\FilesConverter.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:47:08.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InvoiceDTO.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\InvoiceDTO.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\InvoiceDTO.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\InvoiceDTO.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\InvoiceDTO.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:26:29.54Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CartProductsDTO.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\CartProductsDTO.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\CartProductsDTO.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\CartProductsDTO.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\CartProductsDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:30:39.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CartProducts.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\CartProducts.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\CartProducts.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\CartProducts.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\Entities\\CartProducts.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:38:33.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderProductsDTO.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\OrderProductsDTO.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\OrderProductsDTO.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\OrderProductsDTO.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\OrderProductsDTO.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:33:54.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PaymentsDTO.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\PaymentsDTO.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\PaymentsDTO.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\PaymentsDTO.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\PaymentsDTO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:31:13.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Cart.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\Cart.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Cart.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\Entities\\Cart.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:29:24.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OrderDTO.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\OrderDTO.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\OrderDTO.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\OrderDTO.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\OrderDTO.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAB4AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:25:05.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "OfferDTO.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\OfferDTO.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\OfferDTO.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\OfferDTO.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\OfferDTO.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:28:58.585Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CustomerDTO.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\CustomerDTO.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\CustomerDTO.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\CustomerDTO.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\CustomerDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:32:03.767Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CartDTO.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\CartDTO.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\CartDTO.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\CartDTO.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\CartDTO.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:30:00.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "OrderProducts.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\OrderProducts.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\OrderProducts.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\OrderProducts.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\Entities\\OrderProducts.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:34:29.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Customer.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\Customer.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Customer.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\Entities\\Customer.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:31:42.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Offers.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Offers.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\Offers.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Offers.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\Entities\\Offers.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:28:11.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20241219032327_Add-invoice.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241219032327_Add-invoice.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Infrastructure\\Migrations\\20241219032327_Add-invoice.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241219032327_Add-invoice.cs",
-              "RelativeToolTip": "VristoAPI.Infrastructure\\Migrations\\20241219032327_Add-invoice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:23:27.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\Order.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Order.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\Entities\\Order.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:21:50.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Invoice.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Invoice.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\Invoice.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Invoice.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\Entities\\Invoice.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:19:59.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ProductCategory.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\ProductCategory.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\ProductCategory.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\ProductCategory.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\Entities\\ProductCategory.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:08:26.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Database\\DataContext.cs",
               "RelativeDocumentMoniker": "VristoAPI.Infrastructure\\Database\\DataContext.cs",
               "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Database\\DataContext.cs",
               "RelativeToolTip": "VristoAPI.Infrastructure\\Database\\DataContext.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAADAAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:06:43.287Z"
+              "WhenOpened": "2024-12-19T03:06:43.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20241221025952_BuildDatabase2.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241221025952_BuildDatabase2.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Infrastructure\\Migrations\\20241221025952_BuildDatabase2.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241221025952_BuildDatabase2.cs",
+              "RelativeToolTip": "VristoAPI.Infrastructure\\Migrations\\20241221025952_BuildDatabase2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T02:59:52.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartProducts.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\CartProducts.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\CartProducts.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\CartProducts.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\Entities\\CartProducts.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:38:33.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241221025149_BuildDatabase2.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241221025149_BuildDatabase2.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Infrastructure\\Migrations\\20241221025149_BuildDatabase2.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\Migrations\\20241221025149_BuildDatabase2.cs",
+              "RelativeToolTip": "VristoAPI.Infrastructure\\Migrations\\20241221025149_BuildDatabase2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T02:51:49.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\Cart.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Cart.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\Entities\\Cart.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:29:24.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwB8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:21:50.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T02:27:23.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "VristoAPI.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA8wDIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T00:05:39.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "VristoAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "VristoAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T23:56:24.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Invoice.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\Invoice.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Invoice.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\Entities\\Invoice.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:19:59.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MapperProfiler.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Mappings\\MapperProfiler.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Application\\Mappings\\MapperProfiler.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Mappings\\MapperProfiler.cs",
+              "RelativeToolTip": "VristoAPI.Application\\Mappings\\MapperProfiler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAASwBcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T02:41:35.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetProductWithPaginationQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Features\\Products\\Query\\GetProductWithPagination\\GetProductWithPaginationQueryHandler.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Application\\Features\\Products\\Query\\GetProductWithPagination\\GetProductWithPaginationQueryHandler.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Features\\Products\\Query\\GetProductWithPagination\\GetProductWithPaginationQueryHandler.cs",
+              "RelativeToolTip": "VristoAPI.Application\\Features\\Products\\Query\\GetProductWithPagination\\GetProductWithPaginationQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T02:40:42.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Models\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\Models\\PaginatedList.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Models\\PaginatedList.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\Models\\PaginatedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T02:41:07.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\GenericRepo\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\GenericRepo\\IBaseRepository.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\GenericRepo\\IBaseRepository.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\GenericRepo\\IBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T02:40:50.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseRepoistory.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\GenericRepo\\BaseRepoistory.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Infrastructure\\GenericRepo\\BaseRepoistory.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\GenericRepo\\BaseRepoistory.cs",
+              "RelativeToolTip": "VristoAPI.Infrastructure\\GenericRepo\\BaseRepoistory.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:06:32.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\BaseEntity\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\BaseEntity\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\BaseEntity\\BaseEntity.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\BaseEntity\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:05:30.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI\\Program.cs",
+              "RelativeDocumentMoniker": "VristoAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI\\Program.cs",
+              "RelativeToolTip": "VristoAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T23:39:12.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Models\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Application\\Models\\PaginatedList.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Models\\PaginatedList.cs",
+              "RelativeToolTip": "VristoAPI.Application\\Models\\PaginatedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:08:02.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Application\\Services\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Services\\EmailSender.cs",
+              "RelativeToolTip": "VristoAPI.Application\\Services\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:08:08.887Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "VristoAPI.Domain",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\VristoAPI.Domain.csproj",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\VristoAPI.Domain.csproj",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\VristoAPI.Domain.csproj",
+              "RelativeToolTip": "VristoAPI.Domain\\VristoAPI.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-21T02:36:11.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\Product.cs",
@@ -439,11 +549,367 @@
               "RelativeToolTip": "VristoAPI.Domain\\Entities\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:08:31.742Z"
+              "WhenOpened": "2024-12-19T03:08:31.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
+              "Title": "Payments.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Payments.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\Payments.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Payments.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\Entities\\Payments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T02:29:15.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "VristoAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI\\appsettings.json",
+              "RelativeToolTip": "VristoAPI\\appsettings.json",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-20T23:36:42.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Offers.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Offers.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\Offers.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\Offers.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\Entities\\Offers.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:28:11.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "InvoiceFactory.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Services\\InvoiceFactory.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Application\\Services\\InvoiceFactory.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Services\\InvoiceFactory.cs",
+              "RelativeToolTip": "VristoAPI.Application\\Services\\InvoiceFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T02:21:01.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OrderProducts.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\OrderProducts.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\OrderProducts.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\OrderProducts.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\Entities\\OrderProducts.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:34:29.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "VristoAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "VristoAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:09:41.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Application\\Models\\Login.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Models\\Login.cs",
+              "RelativeToolTip": "VristoAPI.Application\\Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T00:03:33.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AuthDTO.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\DTOs\\AuthDTO.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Application\\DTOs\\AuthDTO.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\DTOs\\AuthDTO.cs",
+              "RelativeToolTip": "VristoAPI.Application\\DTOs\\AuthDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T00:00:10.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IAuth.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Interfaces\\IAuth.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Application\\Interfaces\\IAuth.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Interfaces\\IAuth.cs",
+              "RelativeToolTip": "VristoAPI.Application\\Interfaces\\IAuth.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T00:02:39.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ErrorsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Services\\ErrorsHandler.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Application\\Services\\ErrorsHandler.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Services\\ErrorsHandler.cs",
+              "RelativeToolTip": "VristoAPI.Application\\Services\\ErrorsHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T02:17:36.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Application\\Models\\Register.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Models\\Register.cs",
+              "RelativeToolTip": "VristoAPI.Application\\Models\\Register.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T23:58:39.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "SMSSender.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Services\\SMSSender.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Application\\Services\\SMSSender.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Services\\SMSSender.cs",
+              "RelativeToolTip": "VristoAPI.Application\\Services\\SMSSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T00:02:12.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "APIResponse.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Models\\APIResponse.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Application\\Models\\APIResponse.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Models\\APIResponse.cs",
+              "RelativeToolTip": "VristoAPI.Application\\Models\\APIResponse.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvwwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T23:57:04.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "JWT.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Models\\JWT.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Application\\Models\\JWT.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Models\\JWT.cs",
+              "RelativeToolTip": "VristoAPI.Application\\Models\\JWT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T23:38:12.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ISMSSender.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Interfaces\\ISMSSender.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Application\\Interfaces\\ISMSSender.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Interfaces\\ISMSSender.cs",
+              "RelativeToolTip": "VristoAPI.Application\\Interfaces\\ISMSSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:08:00.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\ProductDTO.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAIBQwCsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:24:23.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ProductCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\ProductCategoryDTO.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\ProductCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\ProductCategoryDTO.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\ProductCategoryDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIBQwBQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:32:39.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "FilesConverter.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Extensions\\FilesConverter.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Application\\Extensions\\FilesConverter.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Extensions\\FilesConverter.cs",
+              "RelativeToolTip": "VristoAPI.Application\\Extensions\\FilesConverter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:47:08.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "InvoiceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\InvoiceDTO.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\InvoiceDTO.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\InvoiceDTO.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\InvoiceDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIBJwA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:26:29.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CartProductsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\CartProductsDTO.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\CartProductsDTO.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\CartProductsDTO.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\CartProductsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:30:39.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "OrderProductsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\OrderProductsDTO.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\OrderProductsDTO.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\OrderProductsDTO.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\OrderProductsDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIBJwBMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:33:54.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PaymentsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\PaymentsDTO.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\PaymentsDTO.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\PaymentsDTO.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\PaymentsDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:31:13.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\OrderDTO.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\OrderDTO.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\OrderDTO.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAEBUwB4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:25:05.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "OfferDTO.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\OfferDTO.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\OfferDTO.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\OfferDTO.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\OfferDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBQwBkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:28:58.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\CustomerDTO.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\CustomerDTO.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\CustomerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:32:03.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CartDTO.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\CartDTO.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\DTOs\\CartDTO.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\DTOs\\CartDTO.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\DTOs\\CartDTO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIBQwBgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:30:00.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ProductCategory.cs",
+              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\ProductCategory.cs",
+              "RelativeDocumentMoniker": "VristoAPI.Domain\\Entities\\ProductCategory.cs",
+              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\Entities\\ProductCategory.cs",
+              "RelativeToolTip": "VristoAPI.Domain\\Entities\\ProductCategory.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:08:26.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "VristoAPI.Application\\DependencyInjection.cs",
@@ -451,67 +917,21 @@
               "RelativeToolTip": "VristoAPI.Application\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:08:19.271Z"
+              "WhenOpened": "2024-12-19T03:08:19.271Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "PaginatedList.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Models\\PaginatedList.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Application\\Models\\PaginatedList.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Models\\PaginatedList.cs",
-              "RelativeToolTip": "VristoAPI.Application\\Models\\PaginatedList.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:08:02.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ISMSSender.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Models\\ISMSSender.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Application\\Models\\ISMSSender.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Models\\ISMSSender.cs",
-              "RelativeToolTip": "VristoAPI.Application\\Models\\ISMSSender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:08:00.064Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 52,
               "Title": "IGetPaginatedQuery.cs",
               "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Models\\IGetPaginatedQuery.cs",
               "RelativeDocumentMoniker": "VristoAPI.Application\\Models\\IGetPaginatedQuery.cs",
               "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\Models\\IGetPaginatedQuery.cs",
               "RelativeToolTip": "VristoAPI.Application\\Models\\IGetPaginatedQuery.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:07:53.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BaseRepoistory.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\GenericRepo\\BaseRepoistory.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Infrastructure\\GenericRepo\\BaseRepoistory.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\GenericRepo\\BaseRepoistory.cs",
-              "RelativeToolTip": "VristoAPI.Infrastructure\\GenericRepo\\BaseRepoistory.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:06:32.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\BaseEntity\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "VristoAPI.Domain\\BaseEntity\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Domain\\BaseEntity\\BaseEntity.cs",
-              "RelativeToolTip": "VristoAPI.Domain\\BaseEntity\\BaseEntity.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:05:30.27Z"
+              "WhenOpened": "2024-12-19T03:07:53.755Z",
+              "EditorCaption": ""
             }
           ]
         }

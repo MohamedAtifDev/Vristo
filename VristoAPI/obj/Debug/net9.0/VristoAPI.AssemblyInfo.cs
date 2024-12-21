@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VristoAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72574a3e01335e9a65c30609a4325fe8af182ba1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ea1237d310eeea0fd6a7a7aac68b91dfca89a64")]
 [assembly: System.Reflection.AssemblyProductAttribute("VristoAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VristoAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

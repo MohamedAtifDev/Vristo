@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,24 +11,21 @@ using VristoAPI.Domain.Entities;
 
 namespace VristoAPI.Infrastructure.Database
 {
-    public class DataContext : IdentityDbContext
+    public class DataContext : IdentityDbContext<ApplicationUser>
     {
         public DataContext()  { }
         public DataContext(DbContextOptions<DataContext> opt):base(opt) { }
 
-        
+
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-            builder.Entity<Customer>().HasIndex(a => a.UserName);
+       
             builder.Entity<CartProducts>().HasKey(a => new { a.ProductID, a.CartID });
             builder.Entity<OrderProducts>().HasKey(a => new { a.ProductID, a.OrderID });
-            
+         
         }
-      
-        public DbSet<Customer> Customers { get; set; }
-
         public DbSet<Cart> Carts { get; set; }
 
 

@@ -1,5 +1,57 @@
 [
   {
+    "ContainingType": "VristoAPI.Controllers.AuthController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Login",
+        "Type": "VristoAPI.Application.Models.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VristoAPI.Application.Models.APIResponse\u00601[[VristoAPI.Application.DTOs.AuthDTO, VristoAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VristoAPI.Controllers.AuthController",
+    "Method": "RegisterAsync",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "register",
+        "Type": "VristoAPI.Application.Models.Register",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VristoAPI.Application.Models.APIResponse\u00601[[VristoAPI.Application.DTOs.AuthDTO, VristoAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "VristoAPI.Controllers.ProductsController",
     "Method": "Get",
     "RelativePath": "api/Products",

@@ -16,11 +16,11 @@ namespace VristoAPI.Domain.Entities
 
         public DateTime LastOpened { get; set; }
 
-        public int CustomerID { get; set; }
+        public string CustomerID { get; set; }
 
 
         [ForeignKey(nameof(CustomerID))]
-        public Customer Customer { get; set; }
+        public ApplicationUser Customer { get; set; }
 
     
         public ICollection<CartProducts> cartProducts { get; set; }

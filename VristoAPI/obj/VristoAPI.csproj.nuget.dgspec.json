@@ -77,6 +77,14 @@
               "target": "Package",
               "version": "[12.4.1, )"
             },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "MimeKit": {
               "target": "Package",
               "version": "[4.9.0, )"
@@ -164,13 +172,13 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.AspNet.Identity.EntityFramework": {
-              "target": "Package",
-              "version": "[2.2.4, )"
-            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -334,9 +342,6 @@
             "projectReferences": {
               "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\VristoAPI.Application.csproj": {
                 "projectPath": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Application\\VristoAPI.Application.csproj"
-              },
-              "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\EL-masreya\\Desktop\\Vristo\\VristoAPI.Infrastructure\\VristoAPI.Infrastructure.csproj"
               }
             }
           }
@@ -365,6 +370,10 @@
               "target": "Package",
               "version": "[3.1.4, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -386,6 +395,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
@@ -420,6 +433,10 @@
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.3.0, )"
             }
           },
           "imports": [

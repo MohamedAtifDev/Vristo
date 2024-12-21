@@ -21,7 +21,7 @@ namespace VristoAPI.Application.Mappings
             CreateMap<Cart, CartDTO>().ReverseMap();
             CreateMap<CartProducts, CartProductsDTO>().ReverseMap();
             CreateMap<Offers, OfferDTO>().ReverseMap();
-            CreateMap<Customer, CustomerDTO>().ReverseMap();
+          
             CreateMap<Payments, PaymentsDTO>().ReverseMap();
         }
     }

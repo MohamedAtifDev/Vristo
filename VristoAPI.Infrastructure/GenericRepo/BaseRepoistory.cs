@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
+
 using VristoAPI.Infrastructure.Database;
 
 namespace VristoAPI.Domain.GenericRepo

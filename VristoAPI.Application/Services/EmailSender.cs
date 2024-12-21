@@ -6,7 +6,7 @@ using MailKit.Net.Smtp;
 using System.Text;
 using System.Threading.Tasks;
 using MimeKit.Utils;
-using Microsoft.AspNet.Identity;
+
 using Microsoft.Extensions.Configuration;
 
 namespace VristoAPI.Application.Services
